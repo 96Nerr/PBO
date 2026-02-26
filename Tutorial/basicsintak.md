@@ -53,4 +53,16 @@ Dengan menggunakan enums, Anda dapat mengurangi jumlah bug dalam kode Anda.
 Misalnya, jika kita mempertimbangkan aplikasi untuk toko jus segar, kita dapat membatasi ukuran gelas menjadi kecil, sedang, dan besar. Hal ini akan memastikan bahwa tidak ada yang dapat memesan ukuran selain kecil, sedang, atau besar.
 
 Contoh: 
-[[helloworld.java]]
+[helloworld.java](./helloworld.java)
+
+# **Inheritance (pewarisan)**
+
+Di Java, kelas dapat diwarisi dari kelas lain. Secara umum, jika Anda perlu membuat kelas baru dan sudah ada kelas yang memiliki sebagian kode yang Anda butuhkan, maka Anda dapat mewarisi kelas baru Anda dari kode yang sudah ada.
+
+Java inheritance memungkinkan Anda untuk menggunakan kembali bidang dan metode dari kelas yang sudah ada tanpa perlu menulis ulang kode di kelas baru. Dalam skenario ini, kelas yang sudah ada disebut superclass, sedangkan kelas yang diwarisi disebut subclass.
+
+# **Interfaces**
+
+Dalam bahasa pemrograman Java, antarmuka (interface) dapat didefinisikan sebagai perjanjian antara objek-objek tentang cara berkomunikasi satu sama lain. Antarmuka memainkan peran penting dalam konsep pewarisan (inheritance).
+
+Antarmuka mendefinisikan metode-metode yang harus digunakan oleh kelas turunan (subclass). Namun, implementasi metode-metode tersebut sepenuhnya diserahkan kepada subclass.
