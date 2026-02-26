@@ -1,11 +1,19 @@
 class Manusia{
+
     //properties
+    private String nama;
 
-    String nama;
+    //methods
 
+    //constructor kosong
+    public Manusia(){
+        nama = "Hi aku Michelle";
+    }
 
+    
 
-    Manusia(){
+    //Diganti 
+   /*Manusia(String nama){
         nama = "Nama aku Michelle";
     }
     void getNama(){
@@ -16,5 +24,5 @@ class Manusia{
         System.out.println(michelle.nama);
         michelle.nama = "Michelle";
         System.out.println(michelle.nama);
-    }
+    }*/
 }
