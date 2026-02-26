@@ -53,4 +53,4 @@ Dengan menggunakan enums, Anda dapat mengurangi jumlah bug dalam kode Anda.
 Misalnya, jika kita mempertimbangkan aplikasi untuk toko jus segar, kita dapat membatasi ukuran gelas menjadi kecil, sedang, dan besar. Hal ini akan memastikan bahwa tidak ada yang dapat memesan ukuran selain kecil, sedang, atau besar.
 
 Contoh: 
-[[helloworld.java]]
+[helloworld.java](./helloworld.java)
