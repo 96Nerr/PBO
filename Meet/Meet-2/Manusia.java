@@ -10,7 +10,19 @@ class Manusia{
         nama = "Hi aku Michelle";
     }
 
-    
+    //constructor 2
+    public Manusia(String nm){
+        this.nama = nm;
+    }
+
+    //enkapsulasi get-set method
+    public void getNama(String nm){
+        this.nama = nm;
+    }
+
+    public String getNama(){
+        return this.nama;
+    }
 
     //Diganti 
    /*Manusia(String nama){
