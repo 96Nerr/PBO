@@ -21,14 +21,16 @@ class TV {
     }
 
     //set channel
-    public void setChannel (){
-
+    public void setChannel (int newChannel){
+        if (on && newChannel <= 120){
+            channel = newChannel;
+        }  
 
     }
 
     //set volume
     public void setVolume(int newVolumeLevel){
-        if (on && newVolumeLevel <= 120){
+        if (on && newVolumeLevel <= 7){
             volumeLevel = newVolumeLevel;
         }
 
