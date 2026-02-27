@@ -19,8 +19,8 @@ public class TestTV{
         Manusia man1 = new Manusia("Erik");
         System.out.println(man1.namaSaya());
 
-        TV TVku = new TV();
-        man1.beliTV(TVku);
+        TV tiviku = new TV();
+        man1.beliTV(tiviku);
 
 
 

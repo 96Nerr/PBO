@@ -18,10 +18,13 @@ class Manusia  {
     }
 
     // Method beli TV
-    public void beliTV(TV TVku) {
+    public void beliTV(TV tiviku) {
         punyaTv = true;
     }
 
-    
+    // Method jual TV
+    public void jualSemuaTV(TV tiviku) {
+        punyaTv = false;
+    }
 
 }
