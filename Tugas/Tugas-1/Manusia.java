@@ -27,4 +27,8 @@ class Manusia  {
         punyaTv = false;
     }
 
+    //cek apakah punya TV
+    public boolean cekPunyaTV() {
+        return punyaTv;
+    }
 }
