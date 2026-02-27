@@ -33,12 +33,16 @@ class TV {
 
     //naikin channel
     public void channelUp(){
-
+        if (on && channel < 120){
+            channel++;
+        }
     }
 
     //turun channel
     public void channelDown(){
-
+        if (on && channel > 1){
+            channel--;
+        }
     }
 
     //naikin volume
