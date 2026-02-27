@@ -21,13 +21,13 @@ class TV {
     }
 
     //set channel
-    public void setChannel (new channel){
+    public void setChannel (){
 
 
     }
 
     //set volume
-    public void setVolume(new volumeLevel){
+    public void setVolume(){
 
     }
 
@@ -42,12 +42,15 @@ class TV {
     }
 
     //naikin volume
-    public volumeUp(){
+    public void volumeUp(){
+        if (on && volumeLevel < 7){
+            volumeLevel++;
 
+        }
     }
 
     //turunin volume
-    public volumeDown(){
+    public void volumeDown(){
 
     }
     
