@@ -51,7 +51,9 @@ class TV {
 
     //turunin volume
     public void volumeDown(){
-
+        if (on && volumeLevel > 1){
+            volumeLevel--;
+        }
     }
     
 }
