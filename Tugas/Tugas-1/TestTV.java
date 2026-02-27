@@ -22,7 +22,14 @@ public class TestTV{
         TV tiviku = new TV();
         man1.beliTV(tiviku);
 
+        //output cek TV
+        System.out.println(man1.cekTV());
 
+        //jual semua TV
+        man1.jualSemuaTV(tiviku);
+
+        //cek output cek TV setelah dijual
+        System.out.println(man1.cekTV());
 
     }
 }
