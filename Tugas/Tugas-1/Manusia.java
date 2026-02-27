@@ -12,8 +12,14 @@ class Manusia  {
         this.nama = nama;
     }
 
+    //fungsi ngebalikin nama
     public String namaSaya(){
         return nama;
+    }
+
+    // Method beli TV
+    public void beliTV(TV TVku) {
+        punyaTv = true;
     }
 
     
