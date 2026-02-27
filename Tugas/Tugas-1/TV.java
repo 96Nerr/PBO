@@ -27,7 +27,10 @@ class TV {
     }
 
     //set volume
-    public void setVolume(){
+    public void setVolume(int newVolumeLevel){
+        if (on && newVolumeLevel <= 120){
+            volumeLevel = newVolumeLevel;
+        }
 
     }
 
