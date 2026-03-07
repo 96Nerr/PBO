@@ -1,18 +1,22 @@
 public class GamePlayer {
     
     double height;
-    double weight;
+    double width;
 
     public GamePlayer(){
 
     }
 
-    public GamePlayer(double height, double weight){
-        
+    public GamePlayer(double height, double width){
+        this.height = height;
+        this.width = width;
     }
 
-    public GamePlayer(double height, double weight, int positionX, int positionY){
-        
+    public GamePlayer(double height, double width, int positionX, int positionY){
+        this.height = height;
+        this.width = width;
+        this.positionX = positionX;
+        this.positionY = positionY;
     }
 
 }
