@@ -31,4 +31,12 @@ public class GameEnemy {
         this.positionY = positionY;
     }
 
+    public int getX(){
+        return this.positionX;
+    }
+
+    public int getY(){
+        return this.positionY;
+    }
+
 }
