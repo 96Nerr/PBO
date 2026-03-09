@@ -15,5 +15,9 @@ public class TestGame{
         Enemy1.Run();
         System.out.println("Enemy1 position X = " + Enemy1.getX() + " position Y = " + Enemy1.getY());
 
+
+        //Test Game Environment
+        
+
     }
 }
