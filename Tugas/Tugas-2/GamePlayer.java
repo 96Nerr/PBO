@@ -47,4 +47,13 @@ public class GamePlayer {
         return this.positionY;
     }
 
+    public void Run(){
+        System.out.println("Player is running");
+    }
+
+    public void Run(int incrementX){
+        this.positionX += incrementX;
+        System.out.println("Player still running..... current X position = " + this.positionX);
+    }
+
 }
