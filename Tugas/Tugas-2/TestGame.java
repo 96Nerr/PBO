@@ -1,23 +1,33 @@
-public class TestGame{
-    public static void main(String [] args){
 
-        GamePlayer Player1 = new GamePlayer();
-        Player1.setDimension(150, 85);
-        Player1.setPosition(10, 7);
+public class TestGame {
 
-        GameEnemy Enemy1 = new GameEnemy();
-        Enemy1.setDimension(150, 85);
-        Enemy1.setPosition(5, 5);
+    public static void main(String[] args) {
+        GamePlayer hero = new GamePlayer();
+        hero.setDimension(12, 12);
+        hero.setPosition(10, 220);
+        System.out.println(
+            "Posisi Player: " + hero.getX() + "," + hero.getY()
+        );
+        hero.Run(12);
+        System.out.println(
+            "Posisi Player: " + hero.getX() + "," + hero.getY()
+        );
+        GamePlayer hero2 = new GamePlayer();
+        hero2.setDimension(12, 32);
+        hero2.setPosition(10, 10);
 
-        Player1.Run(10);
-        System.out.println("Player1 position X = " + Player1.getX() + " position Y = " + Player1.getY());
+        GameEnemy monster = new GameEnemy();
+        monster.setDimension(12, 32);
+        monster.setPosition(10, 10);
 
-        Enemy1.Run();
-        System.out.println("Enemy1 position X = " + Enemy1.getX() + " position Y = " + Enemy1.getY());
-
-
-        //Test Game Environment
-        
-
+        GameEnvironment scene = new GameEnvironment();
+        scene.addPlayer(hero);
+        scene.addPlayer(hero);
+        scene.addPlayer(hero2);
+        scene.getAllPlayer();
+        scene.removePlayer(hero);
+        scene.getAllPlayer();
+        scene.addEnemy(monster);
+        scene.Interaction();
     }
 }
