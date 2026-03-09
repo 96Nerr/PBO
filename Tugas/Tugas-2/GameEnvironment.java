@@ -57,7 +57,7 @@ public class GameEnvironment {
         for (int i = 0; i < arrPlayer.size(); i++) {
             for (int j = 0; j < arrEnemy.size(); j++) {
                 if (arrPlayer.get(i).getY() != arrEnemy.get(j).getY()) {
-                    System.out.println("Player: " + arrPlayer.get(i) + " a nd Enemy: " + arrEnemy.get(j) + "  not in the same Y position");
+                    System.out.println("Player: " + arrPlayer.get(i) + " a nd Enemy: " + arrEnemy.get(j) + "  not in the same Y position" );
                 }
                 if (EuclideanDistance(arrPlayer.get(i).getX(),arrPlayer.get(i).getY(),arrEnemy.get(j).getX(),arrEnemy.get(j).getY()) <2) {
                     System.out.println(
