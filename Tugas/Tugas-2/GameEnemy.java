@@ -21,4 +21,14 @@ public class GameEnemy {
         this.positionY = positionY;
     }
 
+    public void setDimension(double height, double width){
+        this.height = height;
+        this.width = width;
+    }
+
+    public void setPosition(int positionX, int positionY){
+        this.positionX = positionX;
+        this.positionY = positionY;
+    }
+
 }
